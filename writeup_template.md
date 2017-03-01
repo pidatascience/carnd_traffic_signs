@@ -57,11 +57,11 @@ Detailed use of these functions can be observed in the second code cell with the
 
 Two verification methods were used to identify the data set. First, a visual verification of a random sample of 4 images and their corresponding identification labels are displayed in order to perform a sanity check on the set of predefined labels loaded as a [pandas](http://pandas.pydata.org/) dataset from set of [provided labels](https://github.com/pidatascience/carnd_traffic_signs/blob/master/signnames.csv). 
 
-[end of no passing]: https://github.com/pidatascience/carnd_traffic_signs/blob/master/label_verification.png
+![End of no passing](https://github.com/pidatascience/carnd_traffic_signs/blob/master/label_verification.png)
 
 Next a statistical visualization of the data was performed as a histogram of class labels in the training set:
 
-[training histogram]: https://github.com/pidatascience/carnd_traffic_signs/blob/master/training_histogram.png
+![Training histogram](https://github.com/pidatascience/carnd_traffic_signs/blob/master/training_histogram.png)
 
 There some visible variance in the distribution of training samples that may skew the output softmax probabilities of the
 model, especially when dealing with under represented classes if the traning distribution differs greatly from the distribution of classes observed in german roads. 
@@ -114,7 +114,7 @@ In any case the sample application of the method presented allowed to select an 
 
 Secondly, the full training set was used to train the model and selected hyperparameter values with a full epoch count (200) in order to achieve the maximum possible accuracy for traning and validation with the defined folds. These were graphed to give a visual indication of the behavior of the model with increased training:
 
-[Training accuracy]: https://github.com/pidatascience/carnd_traffic_signs/blob/master/train_accuracy.png
+![Training accuracy](https://github.com/pidatascience/carnd_traffic_signs/blob/master/train_accuracy.png)
 
 ####5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
@@ -133,11 +133,11 @@ The test accuracy results show accuracy to be rather low at around 80%. Given th
 
 Here are five German traffic signs that I found on the web:
 
-[Image 1]: https://github.com/pidatascience/carnd_traffic_signs/blob/master/image1.jpg 
-[Image 2]: [https://github.com/pidatascience/carnd_traffic_signs/blob/master/image2.jpg
-[Image 3]: [https://github.com/pidatascience/carnd_traffic_signs/blob/master/image3.jpg 
-[Image 4]: [https://github.com/pidatascience/carnd_traffic_signs/blob/master/image4.jpg
-[Image 5] :https://github.com/pidatascience/carnd_traffic_signs/blob/master/image5.jpg
+![Image 1](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image1.jpg)]
+![Image 2](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image2.jpg)
+![Image 3](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image3.jpg )
+![Image 4](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image4.jpg)
+![Image 5](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image5.jpg)
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
