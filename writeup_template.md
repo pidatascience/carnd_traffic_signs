@@ -100,9 +100,11 @@ The model and hyperparameters are defined in the 7th code cell using [Keras](htt
 | Dropout       		| rate=0.2										            |
 | Flatten				|           												|
 | Fully connected		| 129 output size        									|
+| Activation    		| relu											            |
 | Fully connected		| 82 output size        									|
+| Activation    		| relu											            |
 | Fully connected		| 43 output size        									|
-| Softmax				|                                                           |
+| Activation			| Softmax                                                   |
 
 ####4. Describe how, and identify where in your code, you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
