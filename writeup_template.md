@@ -147,6 +147,12 @@ These are the images after conversion to 32x32
 <img src="https://github.com/pidatascience/carnd_traffic_signs/blob/master/image4.jpg" height="32 width="32">
 <img src="https://github.com/pidatascience/carnd_traffic_signs/blob/master/image5.jpg" width="32" height="32">
 
+Image 1 is off center and at an angle, the classifier has not been tried on affine transformations of the training set and may have trouble selecting the correct class.
+
+Images 3 and 5 have original dimensions that differ greatly from the 32x32 target image size, in these casese image resizing introduces an affine transformation to the representation of these inputs to the classifier, for which it not been explicitly trained on
+
+Images 2, 3 and 5 present watermarks that may introduce artifacts into the classifier it may not be able to recognize
+
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 The code for making predictions on the final model is located in the 12th cell of the Ipython notebook.
