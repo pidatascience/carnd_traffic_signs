@@ -178,20 +178,17 @@ The code for making predictions on my final model is located in the 13th code ce
 
  The top five soft max probabilities for each of the 5 figures
 
-Figure 1 (stop sign):
+|: Figure 1 (Stop sign)            :| Figure 2 (roundabout)               :| 
+|:---------------------------------:|:------------------------------------:|
+| Probability  | Prediction         | Probability  | Prediction            | 
+|:------------:|:------------------:|:------------:|:---------------------:| 
+| .67          | Stop sign   		| .74         	| Roundabout mandatory | 
+| .14     	   | 60 km/h 			| .17     		| Priority road	       |
+| .07	       | 30 km/h       	    | .03			| Keep right           |
+| .08		   | 70 km/h			| .02	      	| Go straight or right |
+| .03		   | Slippery Road      | .01			| No Vehicles          |
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .67         			| Stop sign   									| 
-| .14     				| 60 km/h 										|
-| .08					| 70 km/h										|
-| .07	      			| 30 km/h       				 				|
-| .03				    | Slippery Road      							|
 
-Figure 2 (roundabout):
-
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
 | .74         			| Roundabout mandatory							| 
 | .17     				| Priority road									|
 | .03					| Keep right									|
