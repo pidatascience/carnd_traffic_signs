@@ -133,11 +133,19 @@ The test accuracy results show accuracy to be rather low at around 80%. Given th
 
 Here are five German traffic signs that I found on the web:
 
-![Image 1](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image1.jpg)]
-![Image 2](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image2.jpg)
-![Image 3](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image3.jpg )
-![Image 4](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image4.jpg)
-![Image 5](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image5.jpg)
+![Image 1](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image1.jpg = 150x)
+![Image 2](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image2.jpg = 150x)
+![Image 3](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image3.jpg = 150x)
+![Image 4](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image4.jpg = 150x)
+![Image 5](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image5.jpg = 150x)
+
+These are the images after conversion to 32x32 
+
+![Image 1](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image1.jpg = 32x32)
+![Image 2](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image2.jpg = 32x32)
+![Image 3](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image3.jpg = 32x32)
+![Image 4](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image4.jpg = 32x32)
+![Image 5](https://github.com/pidatascience/carnd_traffic_signs/blob/master/image5.jpg = 32x32)
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
